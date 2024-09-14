@@ -21,16 +21,16 @@ function App() {
 
     <button onClick={()=>setColor("black")} className=" bg-black  outline-none px-4 py-1 rounded-full text-white shadow-lg" //// I did't use inline CSS
     
-    >Red</button>
+    >Black</button>
 
 
 <button onClick={()=>setColor("grey")} className="outline-none px-4 py-1 rounded-full text-white shadow-lg"
     style={{backgroundColor:"grey"}}
-    >Red</button>
+    >Grey</button>
 
 <button onClick={()=>setColor("green")} className="outline-none px-4 py-1 rounded-full text-white shadow-lg"
     style={{backgroundColor:"green"}}
-    >Red</button>
+    >Green</button>
 
     </div>
 
